@@ -1,0 +1,75 @@
+# ==================== IDE файлы ====================
+.idea/
+cmake-build-*/
+
+# ==================== Сборка и компиляция ====================
+# Директории сборки
+build/
+Debug/
+Release/
+x64/
+x86/
+out/
+bin/
+lib/
+dist/
+
+# Объектные файлы
+*.o
+*.obj
+
+# Библиотеки
+*.a
+*.so
+*.dll
+*.lib
+
+# Исполняемые файлы
+*.exe
+*.out
+*.app
+
+# ==================== CMake ====================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# ==================== Google Test ====================
+# Игнорируем скачанные папки Google Test
+googletest-main/
+googletest/
+
+# ==================== Системные файлы ====================
+.DS_Store
+Thumbs.db
+
+# ==================== Тестовые данные ====================
+test_matrix.txt
+matrix_data.txt
+multiset_test.txt
+multiset_data.txt
+
+# ==================== Временные файлы проектов ====================
+# CLion IDE файлы
+MatrixLab/.idea/
+Multiset/.idea/
+
+# Папки сборки
+MatrixLab/cmake-build-*/
+Multiset/cmake-build-*/
+
+# Google Test как вложенные репозитории
+MatrixLab/Google_tests/lib/googletest/
+Multiset/Google_tests/lib/googletest-main/
+
+# Исполняемые файлы и библиотеки
+MatrixLab/MatrixLab.exe
+MatrixLab/runTests.exe
+Multiset/Multiset.exe
+Multiset/runTests.exe
+*.exe
+*.a
+*.lib
