@@ -1,0 +1,69 @@
+# Сборка
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Исполняемые файлы
+*.exe
+*.out
+farm_project
+farm-project.exe
+tests.exe
+
+# Логи
+*.log
+
+# Временные файлы
+*.tmp
+*.temp
+
+# ==========================================
+# GOOGLE TEST - НЕ ЗАЛИВАТЬ НА GIT
+# ==========================================
+googletest-main/
+googletest/
+google_test/
+gtest/
+gmock/
+
+# ==========================================
+# ДОПОЛНИТЕЛЬНЫЕ ПРАВИЛА ДЛЯ C++/CMake
+# ==========================================
+# Автоматически сгенерированные файлы CMake
+CMakeUserPresets.json
+*.cmake
+
+# Файлы компиляции
+*.o
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.pch
+
+# Статические и динамические библиотеки
+*.lib
+*.dll
+*.dylib
+*.so
+*.a
+
+# Папки IDE
+.clion/
+*.code-workspace
+
+# Проекты Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
